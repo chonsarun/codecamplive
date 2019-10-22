@@ -10,6 +10,7 @@
       }
       header {
         display: flex;
+        flex-direction: row;
       }
       header .profile-thumbnail {
         width: 50px;
@@ -17,6 +18,9 @@
         border-radius: 4px;
       }
       header .profile-name {
+
+        display: flex;
+        justify-content: center;
         margin-left: 10px;
       }
       header .follow-btn {
@@ -42,6 +46,8 @@
       }
       footer {
         display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
       }
       footer .stats {
         font-size: 15px;
@@ -56,8 +62,10 @@
         margin-left: auto;
       }
       footer .cta button {
+        display: flex;
         border: 0;
         background: transparent;
+        justify-content: center;
       }
     </style>
   </head>
